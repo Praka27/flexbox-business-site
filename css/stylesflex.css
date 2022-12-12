@@ -1,0 +1,257 @@
+
+html {
+  font-size:16px;
+}
+
+#titleback {
+  background-image: url('banner.jpg');
+  border: 1px 1px 1px 1px;
+  border-color:rgb(2, 2, 49);
+  border-style:double;
+  padding: .75rem .75rem .75rem .75rem;
+  background-repeat: no repeat;
+  width: 100%;
+  height: auto;
+  display:flex;
+  font-family: roboto;
+  font-size: 2rem;
+  color:rgb(253, 247, 247);
+  justify-content :center;
+  flex-wrap: wrap;
+  flex-direction:row;
+   
+}
+
+h1 {
+  text-align:center;
+}
+
+a {
+  color:rgb(0, 0, 22);
+  font-family: arial;
+  font-size: 1.25rem; 
+  text-decoration: underline;
+  font-weight:bold;
+  text-align:center;
+}
+
+a:hover {
+  color: orange;
+}
+
+.mission {
+  
+  /*background-color:rgb(251, 191, 191);*/
+  background-color:rgb(64, 125, 183);
+  font-size: 1.75rem;
+}
+
+#background {
+  background-image:url("cyber1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.links {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-bottom:7rem;
+}
+
+h2 {
+  display:flex;
+  justify-content: center;
+  color:rgb(253, 251, 251);
+  text-align: center;
+  font-family: arial;
+  font-size: 2.5rem;
+  padding-bottom:.75rem;
+  padding-top: .75rem;
+ }
+  
+ h3 {
+  display:flex;
+  justify-content: center;
+  color:rgb(13, 13, 13);
+  /*color:rgb(253, 251, 251);*/
+  text-align: center;
+  font-family: arial;
+  font-size: 2.5rem;
+  padding-bottom:1.5rem;
+  padding-top: 4rem;
+ }
+  
+ h4 {
+  display:flex;
+  justify-content: center;
+  color:rgb(8, 8, 8);
+  text-align: center;
+  font-family: arial;
+  font-size: 2rem;
+  padding-bottom:2rem;
+  padding-top: 1.5rem;
+ }
+
+ h5 {
+  color:rgb(8, 8, 8);
+  text-align: center;
+  font-family: arial;
+  font-size: 2rem;
+  
+ }
+
+ #encryption{
+  
+  padding-bottom:0rem;
+  padding-top: .5rem;
+  border: 1px 1px 0px 1px;
+  background-color:rgb(148, 239, 239);
+ }
+
+.columns{
+  background-color:rgb(148, 239, 239);
+  text-align:justify;
+  padding-left:1rem;
+  padding-bottom:5rem;
+  padding-right:1rem;
+  font-size:1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  column-count:1;
+  column-fill:auto;
+}
+
+#network {
+  padding-top:3rem;
+  border-color:black;
+  border-style:double;
+  background-color:rgb(64, 137, 240);
+  text-align:left;
+  background-image:url("bannerb.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 99.6%;
+  height: auto;
+  padding-bottom:4rem;
+  
+}
+
+.networklist {
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:1.5rem;
+  color: rgb(255, 255, 254);
+  padding-left:1rem;
+  
+}
+
+#back, h6 {
+  font-size:2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(252, 252, 249);
+  text-align:center;
+}
+
+.picture {
+  display:flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  
+  
+}
+
+#backupheading {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(106, 227, 240);
+  color:black;
+  font-size: 2rem;
+  text-align:center;
+  margin-top:5rem;
+  margin-bottom:2rem;
+}   
+
+.backupcolumns {
+  column-count:1;
+  column-gap: 1rem;
+  column-fill:auto;
+  padding-left:1rem;
+  padding-bottom:6rem;
+  padding-right:1rem;
+  font-size:1rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#team {
+  padding-top:2rem;
+  border-color:black;
+  border-style:double;
+  background-color:rgb(64, 137, 240);
+  background-image:url("teambkground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 99.7%;
+  height: auto;
+}
+
+#teamhead, h8 {
+  display:flex;
+  font-size:3rem;
+  font-family: Helvetica, sans-serif, Arial;
+  justify-content: center;
+  color:rgb(254, 252, 252);
+  padding-bottom:5rem;
+  padding-top:6rem;
+}
+ 
+.teammembers {
+  display:flex;
+  flex-flow: row;
+  justify-content:space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-bottom:5rem;
+}
+
+#backtotop {
+  display:flex;
+  justify-content:center;
+  margin-bottom:2rem;
+}
+
+h9 {
+  font-size:2rem;
+  font-family: cursive;
+  text-decoration: underline;
+  color:rgb(12, 12, 12); 
+}
+
+#backtotop :hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 375px) {
+  #titleback{
+    flex-flow:column;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .picture {
+    column-count:1;
+  }
+}
+
+
+
+
+
+
